@@ -1,0 +1,96 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "21-09-2024",
+            "dia": "sábado",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/21/la-union-electrica-preve-una-afectacion-de-800-mw-para-pico-nocturno-de-este-sabado/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2370,
+            "demanda_max": 3100,
+            "deficit": 730,
+            "pronostico": {
+                "afectacion": 800
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2120,
+                "demanda":  2328,
+                "deficit": 450,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 398,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Carlos Manuel de Céspedes"
+                    },
+
+                    {
+                        "nombre": "Unidad 5 y 6",
+                        "CTE": "Nuevitas"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 40,
+                    "razon": "por combustible",
+                    "mw_afectados": 275
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de la unidad 5 de la CTE Diez de Octubre con 70 MW (en proceso de arranque), la entrada de la unidad 4 de CTE Cienfuegos con 80 MW y la recuperación de 100 MW de la generación distribuida indisponibles",
+                    "razon": "por falta de combustible.",
+                    "cantidad_mw": 250
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 991,
+            "hora": "20:20",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "por déficit de capacidad de generación y A las 6:01 horas se comenzó afectar nuevamente este servicio por déficit de capacidad de generación.",
+            "horas": 24,
+            "hora_rest": "4:01"
+        }
+    }
+}

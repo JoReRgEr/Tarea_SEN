@@ -1,0 +1,97 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "18-09-2024",
+            "dia": "miércoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/18/une-pronostica-afectacion-de-1-390-mw-durante-pico-nocturno-de-este-miercoles/"
+        },
+        "estimacion": {
+            "horario": "pico nocturna",
+            "disponibilidad": 1930,
+            "demanda_max": 3250,
+            "deficit": 1320,
+            "pronostico": {
+                "afectacion": 1390
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1830,
+                "demanda":  2790,
+                "deficit": 959,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1150
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 424,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+
+                    {
+                        "nombre": "Unidad 5 y 6",
+                        "CTE": "Nuevita"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 59,
+                    "razon": "por combustible",
+                    "mw_afectados": 582
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de siete motores de la patana de Melones",
+                    "razon": "",
+                    "cantidad_mw": 100
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1347,
+            "hora": "10:00",
+            "desc": "coincidente con el horario pico. Superior a lo planificado por desabastecimiento de combustible diésel en las centrales de generación distribuida y salidas imprevistas de las unidades 6 de la CTE Nuevitas y 1 de la CTE Santa Cruz."
+        },
+        "dia_anterior": {
+            "desc": "por déficit de capacidad de generación, y durante esta madrugada no se ha podido restablecer el servicio eléctrico.",
+            "horas": 24,
+            "hora_rest": ""
+        }
+    }
+}

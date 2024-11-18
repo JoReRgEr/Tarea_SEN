@@ -1,0 +1,15 @@
+En el día de ayer jueves 12 de septiembre se afectó el servicio por déficit de capacidad de generación desde las 09:50 horas y no se ha podido restablecer el servicio en la madrugada de hoy.
+
+La máxima afectación en el horario pico fue de 803 MW a las 22:50 horas, no coincidente con la hora pico. Superior a lo planificado por indisponibilidad de combustible en la patana de Melones y demanda superior a lo pronosticado.
+
+La disponibilidad del SEN a las 07:00 horas es de 2 300 MW y la demanda de 2 465 MW, con 204 MW afectados por déficit de capacidad de generación. En el horario de la media se estima una afectación de 400 MW.
+
+Se encuentran en avería la unidad 5 de la CTE Rente y la unidad 2 de la CTE Felton.
+
+Las limitaciones en la generación térmica son de 586 MW.
+
+Se encuentran fuera de servicio por combustible 45 centrales de generación distribuida y motores en la patana de Melones, para un total de 395 MW afectados por este concepto.
+
+Para el pico se estima la entrada de ocho motores en la patana de Melones, con 128 MW.
+
+Se estima para la hora pico nocturna una disponibilidad de 2 428 MW y una demanda máxima de 3 180 MW, para un déficit de 752 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 822 MW en este horario.

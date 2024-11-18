@@ -1,0 +1,87 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "15-09-2024",
+            "dia": "domingo",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/15/el-deficit-en-pico-nocturno-sera-de-860-mw-este-domingo/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2410,
+            "demanda_max": 3200,
+            "deficit": 790,
+            "pronostico": {
+                "afectacion": 860
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2245,
+                "demanda": 2540,
+                "deficit": 350,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 400
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 517,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5 y 6",
+                        "CTE": "Rente"
+                    },
+                     
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    }
+                    
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 42,
+                    "razon": "por combustible",
+                    "mw_afectados": 502
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": " la entrada de la Unidad 6 de la CTE Antonio Maceo, 4 motores de la patana de Melones y 5 motores de la patana de Regla.",
+                    "razon": "",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 950,
+            "hora": "21:00",
+            "desc": "Superior a lo planificado por ser la demanda superior a lo pronosticado."
+        },
+        "dia_anterior": {
+            "desc": "no se ha podido restablecer el servicio durante la madrugada de hoy.",
+            "horas": 24,
+            "hora_rest": ""
+        }
+    }
+}

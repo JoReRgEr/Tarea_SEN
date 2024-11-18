@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "17-09-2024",
+            "dia": "martes",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/17/union-electrica-pronostica-afectacion-de-1030-mw-en-pico-nocturno-de-este-martes/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2240,
+            "demanda_max": 3200,
+            "deficit": 960,
+            "pronostico": {
+                "afectacion": 1030
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2170,
+                "demanda": 2550,
+                "deficit": 411,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 550
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 449,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    }
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 59,
+                    "razon": "por combustible",
+                    "mw_afectados": 448
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de la unidad 1 de la CTE Santa Cruz",
+                    "razon": "",
+                    "cantidad_mw": 70
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 973,
+            "hora": "20:50",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "déficit de capacidad de generación y durante la madrugada no se ha podido restablecer el servicio eléctrico.",
+            "horas": 24,
+            "hora_rest": "07:48"
+        }
+    }
+}

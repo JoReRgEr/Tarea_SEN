@@ -1,0 +1,93 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "20-09-2024",
+            "dia": "viernes",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/20/une-preve-afectacion-de-1-070-mw-en-pico-nocturno-este-viernes/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2300,
+            "demanda_max": 3300,
+            "deficit": 1000,
+            "pronostico": {
+                "afectacion": 1070
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2130,
+                "demanda": 2650,
+                "deficit": 520,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 650
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 437,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Carlos Manuel de Céspedes"
+                    },
+
+                    {
+                        "nombre": "Unidad 5 y 6",
+                        "CTE": "Nuevitas"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    }
+
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 46,
+                    "razon": "déficit de combustible",
+                    "mw_afectados": 312
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de la unidad 5 de la CTE Diez de Octubre y la recuperación de 100 MW de motores de la generación distribuida que no están disponibles por falta de combustible. ",
+                    "razon": "",
+                    "cantidad_mw": 170
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1514,
+            "hora": "20:20",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "déficit de capacidad de generación y durante la madrugada de este viernes no se ha podido restablecer el servicio eléctrico, informó la Unión Nacional Eléctrica en su parte diario.",
+            "horas": 24,
+            "hora_rest": ""
+        }
+    }
+}

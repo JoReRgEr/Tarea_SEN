@@ -1,0 +1,13 @@
+En el día de ayer se afectó el servicio por déficit de capacidad de generación las 24 horas del día y no se ha podido restablecer el servicio durante la madrugada de hoy.
+
+La máxima afectación en el horario pico fue de 715 MW a las 20:50 horas, coincidente con el horario pico. 
+
+La disponibilidad del SEN a las 07:00 horas es de 2300 MW la demanda 2450 MW, con 106 MW afectado por déficit de capacidad de generación. En el horario de la media se estima una afectación de 450 MW.
+
+Se encuentra en avería la unidad 2 de la CTE Felton, la unidad 5 de la CTE Rente y la unidad 8 de la CTE Mariel.
+
+Las limitaciones en la generación térmica son de 527 MW.
+
+Se encuentran fuera de servicio por combustible 51 centrales de generación distribuida, para un total de 341 MW afectado por este concepto.
+
+Se estima para la hora pico una disponibilidad de 2300 MW y una demanda máxima de 3200 MW, para un déficit de 900 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 970 MW en este horario.

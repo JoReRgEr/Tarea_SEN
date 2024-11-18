@@ -1,0 +1,13 @@
+La disponibilidad del SEN a las 07:00 horas es de 2650 MW la demanda 2420 MW, con todo el sistema con servicio. En el horario de la media se estima una afectación de 250 MW.
+
+Se encuentra en avería la unidad 5 de la CTE Rente y la unidad 2 de la CTE Felton.
+
+Las limitaciones en la generación térmica son de 587 MW.
+
+Se encuentran fuera de servicio por combustible 32 centrales de generación distribuida, para un total de 242 MW afectado por este concepto.
+
+Se estima para la hora pico una disponibilidad de 2650 MW y una demanda máxima de 3150 MW, para un déficit de 500 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 570 MW en este horario.
+
+En el día de ayer a las 07:40 horas se restableció el servicio, se comenzó a afectar nuevamente a las 08:37 horas de la mañana y se restableció a las 01:09 horas de la madrugada de hoy.
+
+La máxima afectación en el horario pico fue de 698 MW a las 20:30 horas, coincidente con la hora pico.

@@ -1,0 +1,81 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "12-09-2024",
+            "dia": "jueves",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/12/la-union-electrica-pronostica-una-afectacion-de-720-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 2450,
+            "demanda_max": 3100,
+            "deficit": 650,
+            "pronostico": {
+                "afectacion": 720
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2450,
+                "demanda": 2400,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 150
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 586,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 43,
+                    "razon": "déficit de combustible",
+                    "mw_afectados": 280
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "",
+                    "razon": "",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 485,
+            "hora": "485",
+            "desc": "Coincidente con el horario pico."
+        },
+        "dia_anterior": {
+            "desc": "déficit de capacidad de generación",
+            "horas": 11,
+            "hora_rest": "02:55"
+        }
+    }
+}

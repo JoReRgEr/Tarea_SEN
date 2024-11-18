@@ -1,0 +1,82 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "14-09-2024",
+            "dia": "sábado",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/14/union-electrica-pronostica-este-sabado-afectacion-de-890-mw-en-horario-pico/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2380,
+            "demanda_max":  3200,
+            "deficit": 820,
+            "pronostico": {
+                "afectacion": 890
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2380,
+                "demanda": 2490,
+                "deficit": 169,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 400
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 523,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+
+                    {
+                        "nombre": "Unidad 5 y 6",
+                        "CTE": "Rente"
+                    }
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 50,
+                    "razon": "por combustible",
+                    "mw_afectados": 402
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "",
+                    "razon": "",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 856,
+            "hora": "20:20",
+            "desc": "coincidente con la hora pico. Superior a lo planificado por demanda mayor a lo pronosticado."
+        },
+        "dia_anterior": {
+            "desc": "a las 10:10 horas se comenzó a afectar el servicio por déficit de capacidad de generación y no se ha podido restablecer el servicio durante la madrugada de hoy.",
+            "horas": 2,
+            "hora_rest": "07:55"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "11-09-2024",
+            "dia": "miércoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/11/union-electrica-estima-una-afectacion-de-570-mw-para-el-horario-pico-nocturno-de-este-miercoles/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2650,
+            "demanda_max": 3150,
+            "deficit": 500,
+            "pronostico": {
+                "afectacion": 570
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2650,
+                "demanda": 2420,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 250
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 587,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Rente"
+                    },
+
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad",
+                        "CTE": ""
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 32,
+                    "razon": "por combustible",
+                    "mw_afectados": 242
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "",
+                    "razon": "",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 698,
+            "hora": "20:30",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "",
+            "horas": 1,
+            "hora_rest": "01:09"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+A las 07:48 horas de la mañana de este lunes se restableció el servicio y a partir de las 08:33 horas se comenzó a afectar nuevamente por déficit de capacidad de generación y durante la madrugada no se ha podido restablecer el servicio eléctrico.
+
+La máxima afectación en el horario pico fue de 973 MW a las 20:50 horas, coincidente con el horario pico.
+
+La disponibilidad del Sistema Electroenergético Nacional a las 07:00 horas fue de 2170 MW la demanda 2550 MW, con 411 MW afectado por déficit de capacidad de generación. En el horario de la media se estima una afectación de 550 MW.
+
+Se encuentra en avería la unidad 8 de la CTE Mariel, la unidad 1 de la CTE Santa Cruz, la unidad 5 de la CTE Nuevitas, la unidad 2 de la CTE Felton y la unidad 5 de la CTE Rente.
+
+    Las limitaciones en la generación térmica son de 449 MW.
+
+Se encuentran fuera de servicio por combustible 59 centrales de generación distribuida, para un total de 448 MW afectado por este concepto.
+
+Para el pico se estima la entrada de la unidad 1 de la CTE Santa Cruz con 70 MW.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2240 MW y una demanda máxima de 3200 MW, para un déficit de 960 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 1030 MW en este horario.
