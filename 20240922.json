@@ -1,91 +1,49 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "22-09-2024",
-            "dia": "domingo",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/22/la-union-electrica-pronostica-una-afectacion-de-880-mw-para-el-horario-pico-nocturno/"
-        },
-        "estimacion": {
-            "horario": "pico nocturna",
-            "disponibilidad": 2290,
-            "demanda_max": 3100,
-            "deficit": 810,
-            "pronostico": {
-                "afectacion": 880
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2070,
-                "demanda": 2406,
-                "deficit": 411,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240922",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/22/la-union-electrica-pronostica-una-afectacion-de-880-mw-para-el-horario-pico-nocturno/", 
+    "prediction": {
+        "availability": 2290,  
+        "demand_max": 3100,
+        "impact": 880,
+        "deficit": 810,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2070, 
+        "demand": 2406, 
+        "deficit": 411
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": [8],
+                "DO": [5, 6],
+                "LR": [2],
+                "AM": [5, 6]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 650
-                }
+            "maintenance": {
+                "EG": [2]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 372,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 5 y 6",
-                        "CTE": "Nuevitas"
-                    },
-
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
-
-                    {
-                        "nombre": "Unidad 5 y 6",
-                        "CTE": "Renté"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Santa Cruz"
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 44,
-                    "razon": "déficit de combustible",
-                    "mw_afectados": 278
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "Para el pico se estima la entrada de la unidad 5 de la CTE Diez de Octubre con 70 MW, la entrada de la unidad 8 de la CTE Mariel, con 70 MW, y la recuperación de 80 MW de la generación distribuida que están indisponibles",
-                    "razon": "por falta de combustible.",
-                    "cantidad_mw": 220
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 1043,
-            "hora": "20:40",
-            "desc": "coincidente con el horario pico."
-        },
-        "dia_anterior": {
-            "desc": "En la jornada de ayer se afectó el servicio desde las 06:01 horas por déficit de capacidad de generación, y no se ha restablecido.",
-            "horas": 24,
-            "hora_rest": ""
-        }
+        {
+            "limitation": 372
+    }
+],
+    "distributed": {
+        "motors_with_problems": 44,
+        "total_impact": 278,
+        "combustible_problem": true,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1043,
+        "max_hour": 2040
     }
 }

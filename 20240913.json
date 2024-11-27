@@ -1,82 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "13-09-2024",
-            "dia": "viernes",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/13/sen-estima-afectacion-de-400-mw-en-horario-de-la-media/"
-        },
-        "estimacion": {
-            "horario": "pico nocturna",
-            "disponibilidad": 2428,
-            "demanda_max": 3180,
-            "deficit": 752,
-            "pronostico": {
-                "afectacion": 822
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2300,
-                "demanda": 2465,
-                "deficit": 204,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240913",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/13/sen-estima-afectacion-de-400-mw-en-horario-de-la-media/",
+    "prediction": {
+        "availability": null,  
+        "demand_max": null,
+        "impact": null,
+        "deficit": null,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2300, 
+        "demand": 2465, 
+        "deficit": 204
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "LR": [2],
+                "AM": [5]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 400
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 586,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 45,
-                    "razon": "por combustible",
-                    "mw_afectados": 395
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "entrada de ocho motores en la patana de Melones",
-                    "razon": "",
-                    "cantidad_mw": 128 
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 803,
-            "hora": "22:50",
-            "desc": "no coincidente con la hora pico. Superior a lo planificado por indisponibilidad de combustible en la patana de Melones y demanda superior a lo pronosticado."
-        },
-        "dia_anterior": {
-            "desc": "déficit de capacidad de generación desde las 09:50 horas y no se ha podido restablecer el servicio en la madrugada de hoy.",
-            "horas": 0,
-            "hora_rest": ""
-        }
+        {
+            "limitation": 586
+    }
+],
+    "distributed": {
+        "motors_with_problems": 45,
+        "total_impact": 395,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 803,
+        "max_hour": 2250
     }
 }

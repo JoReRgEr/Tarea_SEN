@@ -12,4 +12,5 @@ Se encuentran fuera de servicio por combustible 45 centrales de generación dist
 
 Para el pico se estima la entrada de ocho motores en la patana de Melones, con 128 MW.
 
-Se estima para la hora pico nocturna una disponibilidad de 2 428 MW y una demanda máxima de 3 180 MW, para un déficit de 752 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 822 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/13/sen-estima-afectacion-de-400-mw-en-horario-de-la-media/

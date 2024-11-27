@@ -13,3 +13,5 @@ Se encuentran fuera de servicio por combustible 42 centrales de generación dist
 Para el pico se estima la entrada de la Unidad 6 de la CTE Antonio Maceo, 4 motores de la patana de Melones y 5 motores de la patana de Regla.
 
 Se estima para la hora pico una disponibilidad de 2410 MW y una demanda máxima de 3200 MW, para un déficit de 790 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 860 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/15/el-deficit-en-pico-nocturno-sera-de-860-mw-este-domingo/

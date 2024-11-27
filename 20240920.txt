@@ -11,3 +11,5 @@ Están fuera de servicio por déficit de combustible 46 centrales de generación
 Para el pico, la UNE espera la entrada de la unidad 5 de la CTE Diez de Octubre, con 70 MW, y la recuperación de 100 MW de motores de la generación distribuida que no están disponibles por falta de combustible.
 
 Con este pronóstico, se estima para la hora pico una disponibilidad de 2 300 MW y una demanda máxima de 3 300 MW, para un déficit de 1 000 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 1 070 MW en este horario.
+
+"http://www.cubadebate.cu/noticias/2024/09/20/une-preve-afectacion-de-1-070-mw-en-pico-nocturno-este-viernes/"

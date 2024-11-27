@@ -1,87 +1,48 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "16-09-2024",
-            "dia": "lunes",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/16/union-electrica-pronostica-deficit-de-970-mw-para-el-horario-pico-nocturno/"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2300,
-            "demanda_max": 3200,
-            "deficit": 900,
-            "pronostico": {
-                "afectacion": 970
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2300,
-                "demanda": 2450,
-                "deficit": 106,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240916",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/16/union-electrica-pronostica-deficit-de-970-mw-para-el-horario-pico-nocturno/", 
+    "prediction": {
+        "availability": 2300,  
+        "demand_max": 3200,
+        "impact": 970,
+        "deficit": 900,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2300, 
+        "demand": 2450, 
+        "deficit": 106 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "AM": [5],
+                "LR": [2],
+                "MG": [8]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 450
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 527,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
-
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                    }
-
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 51,
-                    "razon": "por combustible",
-                    "mw_afectados": 341
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "",
-                    "razon": "",
-                    "cantidad_mw": 0
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 715,
-            "hora": "20:50",
-            "desc": "coincidente con el horario pico."
-        },
-        "dia_anterior": {
-            "desc": "no se ha podido restablecer el servicio durante la madrugada de hoy.",
-            "horas": 24,
-            "hora_rest": ""
-        }
+        {
+            "limitation": 527
+    }
+],
+    "distributed": {
+        "motors_with_problems": 51,
+        "total_impact": 341,
+        "combustible_problem": true,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 715,
+        "max_hour": 2050
     }
 }

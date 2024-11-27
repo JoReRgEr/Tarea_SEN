@@ -11,3 +11,5 @@ Las limitaciones en la generación térmica son de 527 MW.
 Se encuentran fuera de servicio por combustible 51 centrales de generación distribuida, para un total de 341 MW afectado por este concepto.
 
 Se estima para la hora pico una disponibilidad de 2300 MW y una demanda máxima de 3200 MW, para un déficit de 900 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 970 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/16/union-electrica-pronostica-deficit-de-970-mw-para-el-horario-pico-nocturno/

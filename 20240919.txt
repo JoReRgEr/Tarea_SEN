@@ -13,3 +13,5 @@ Las limitaciones en la generación térmica son de 302 MW.
 Se encuentran fuera de servicio por déficit de combustible 56 centrales de generación distribuida, para un total de 388 MW afectados por este concepto.
 
 Para el pico se estima la entrada de la unidad 8 de la CTE Mariel, con 70 MW, y la entrada de la unidad 4 de Energas Varadero, con 20 MW.
+
+"http://www.cubadebate.cu/noticias/2024/09/19/la-union-electrica-pronostica-una-afectacion-de-1360-mw-para-el-horario-pico-nocturno/"

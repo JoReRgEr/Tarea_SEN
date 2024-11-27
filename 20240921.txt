@@ -13,3 +13,5 @@ Las limitaciones en la generación térmica son de 398 MW.
 Se encuentran fuera de servicio por combustible 40 centrales de generación distribuida, para un total de 275 MW afectado por este concepto.
 
 Para el pico se estima la entrada de la unidad 5 de la CTE Diez de Octubre con 70 MW (en proceso de arranque), la entrada de la unidad 4 de CTE Cienfuegos con 80 MW y la recuperación de 100 MW de la generación distribuida indisponibles por falta de combustible.
+
+"http://www.cubadebate.cu/noticias/2024/09/21/la-union-electrica-preve-una-afectacion-de-800-mw-para-pico-nocturno-de-este-sabado/"

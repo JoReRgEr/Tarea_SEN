@@ -1,81 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "12-09-2024",
-            "dia": "jueves",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/12/la-union-electrica-pronostica-una-afectacion-de-720-mw-para-el-horario-pico-nocturno/"
-        },
-        "estimacion": {
-            "horario": "pico nocturno",
-            "disponibilidad": 2450,
-            "demanda_max": 3100,
-            "deficit": 650,
-            "pronostico": {
-                "afectacion": 720
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2450,
-                "demanda": 2400,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240912",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/12/la-union-electrica-pronostica-una-afectacion-de-720-mw-para-el-horario-pico-nocturno/", 
+    "prediction": {
+        "availability": 2450,  
+        "demand_max": 3100,
+        "impact": 720,
+        "deficit": 650,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2450, 
+        "demand": 2400, 
+        "deficit": 150
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "LR": [2],
+                "AM": [5]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 150
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 586,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 43,
-                    "razon": "déficit de combustible",
-                    "mw_afectados": 280
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "",
-                    "razon": "",
-                    "cantidad_mw": 0
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 485,
-            "hora": "485",
-            "desc": "Coincidente con el horario pico."
-        },
-        "dia_anterior": {
-            "desc": "déficit de capacidad de generación",
-            "horas": 11,
-            "hora_rest": "02:55"
-        }
+        {
+            "limitation": 586
+    }
+],
+    "distributed": {
+        "motors_with_problems": 43,
+        "total_impact": 280,
+        "combustible_problem": true,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 11,
+        "max": 485,
+        "max_hour": 2140
     }
 }

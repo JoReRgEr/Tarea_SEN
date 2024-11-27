@@ -13,3 +13,5 @@ Se encuentran fuera de servicio por combustible 59 centrales de generación dist
 Para el pico se estima la entrada de la unidad 1 de la CTE Santa Cruz con 70 MW.
 
 Con este pronóstico, se estima para la hora pico una disponibilidad de 2240 MW y una demanda máxima de 3200 MW, para un déficit de 960 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 1030 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/17/union-electrica-pronostica-afectacion-de-1030-mw-en-pico-nocturno-de-este-martes/

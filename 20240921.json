@@ -1,96 +1,50 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "21-09-2024",
-            "dia": "sábado",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/21/la-union-electrica-preve-una-afectacion-de-800-mw-para-pico-nocturno-de-este-sabado/"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2370,
-            "demanda_max": 3100,
-            "deficit": 730,
-            "pronostico": {
-                "afectacion": 800
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2120,
-                "demanda":  2328,
-                "deficit": 450,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240921",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/21/la-union-electrica-preve-una-afectacion-de-800-mw-para-pico-nocturno-de-este-sabado/", 
+    "prediction": {
+        "availability": 2370,  
+        "demand_max": 3100,
+        "impact": 800,
+        "deficit": 730,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2120, 
+        "demand": 2328, 
+        "deficit": 230
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": [8],
+                "CM": [4],
+                "DO": [5, 6],
+                "LR": [2],
+                "AM": [5]
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 398,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 4",
-                        "CTE": "Carlos Manuel de Céspedes"
-                    },
-
-                    {
-                        "nombre": "Unidad 5 y 6",
-                        "CTE": "Nuevitas"
-                    },
-
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
-
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Renté"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 40,
-                    "razon": "por combustible",
-                    "mw_afectados": 275
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "entrada de la unidad 5 de la CTE Diez de Octubre con 70 MW (en proceso de arranque), la entrada de la unidad 4 de CTE Cienfuegos con 80 MW y la recuperación de 100 MW de la generación distribuida indisponibles",
-                    "razon": "por falta de combustible.",
-                    "cantidad_mw": 250
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 991,
-            "hora": "20:20",
-            "desc": "coincidente con el horario pico"
-        },
-        "dia_anterior": {
-            "desc": "por déficit de capacidad de generación y A las 6:01 horas se comenzó afectar nuevamente este servicio por déficit de capacidad de generación.",
-            "horas": 24,
-            "hora_rest": "4:01"
-        }
+        {
+            "limitation": 398
+    }
+],
+    "distributed": {
+        "motors_with_problems": 40,
+        "total_impact": 275,
+        "combustible_problem": true,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 991,
+        "max_hour": 2020
     }
 }
