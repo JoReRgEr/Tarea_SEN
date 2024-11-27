@@ -9,3 +9,5 @@ Las limitaciones en la generación térmica son de 562 MW. Se encuentran fuera d
 Para el pico se estima la entrada de 3 motores en la patana de Melones con 48 MW, la entrada de la unidad 2 de Energas Boca de Jaruco con 30 MW y el completamiento de la unidad 6 de esta misma central con 25 MW.
 
 Con este pronóstico, se estima para la hora pico una disponibilidad de 2453 MW y una demanda máxima de 3240 MW, para un déficit de 787 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 857 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/10/estima-union-electrica-para-la-hora-pico-una-afectacion-de-857-mw-en-el-pais/

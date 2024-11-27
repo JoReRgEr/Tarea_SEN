@@ -1,95 +1,48 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "09-09-2024",
-            "dia": "lunes",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/09/la-union-electrica-estima-un-deficit-de-750-mw-en-horario-pico-de-este-9-de-septiembre/"
-        },
-        "estimacion": {
-            "horario": "mañana",
-            "disponibilidad": 2450,
-            "demanda_max": 3200,
-            "deficit": 750,
-            "pronostico": {
-                "afectacion": 820
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2250,
-                "demanda": 2555,
-                "deficit": 375,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240909",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/09/la-union-electrica-estima-un-deficit-de-750-mw-en-horario-pico-de-este-9-de-septiembre/", 
+    "prediction": {
+        "availability": 2450,  
+        "demand_max": 3200,
+        "impact": 750,
+        "deficit": 820,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2250, 
+        "demand": 2555, 
+        "deficit": 375 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": [8],
+                "AM": [5],
+                "EG": [1],
+                "LR": [2]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 550
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 496,
-            "fuera": {
-                "averias": [
-                    {
-                     "nombre": "Unidad 8",
-                     "CTE": "Mariel"
-                        
-                    },
+            
+        }, 
 
-                    {
-                     "nombre": "Unidad 5",
-                     "CTE": "Rente"   
-
-                    },
-
-                    {
-                     "nombre": "Unidad 1",
-                     "CTE": "Santa Cruz"
-
-                    },
-
-                    {
-                     "nombre": "Unidad 2",
-                     "CTE": "Felton"
-
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 52,
-                    "razon": "Falta de combustible",
-                    "mw_afectados": 390
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "Entrada de la unidad 1 de la CTE Santa Cruz, entrada de la patana de Regla y el completamiento de la unidad 1 de la CTE Felton",
-                    "razon": "",
-                    "cantidad_mw": 195
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 859,
-            "hora": "23:00",
-            "desc": "Afectacion superior a lo planificado por demanda superior al pronóstico."
-        },
-        "dia_anterior": {
-            "desc": "La afectacion se ha mantenido durante toda la madrugada de hoy.",
-            "horas": 24,
-            "hora_rest": "0:00"
-        }
+        {
+            "limitation": 496
+    }
+],
+    "distributed": {
+        "motors_with_problems": 52,
+        "total_impact": 390,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 859,
+        "max_hour": 2300
     }
 }

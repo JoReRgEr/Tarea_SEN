@@ -1,85 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "10-09-2024",
-            "dia": "martes",
-            "url": "http://www.cubadebate.cu/noticias/2024/09/10/estima-union-electrica-para-la-hora-pico-una-afectacion-de-857-mw-en-el-pais/"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2453,
-            "demanda_max": 3240,
-            "deficit": 787,
-            "pronostico": {
-                "afectacion": 857
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2350,
-                "demanda": 2570,
-                "totalidad": true
+    "zones_with_problems": [null], 
+    "date": "20240910",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/10/estima-union-electrica-para-la-hora-pico-una-afectacion-de-857-mw-en-el-pais/", 
+    "prediction": {
+        "availability": 2453,  
+        "demand_max": 3240,
+        "impact": 787,
+        "deficit": 857,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2350, 
+        "demand": 2570, 
+        "deficit": 215 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "AM": [5],
+                "EG": [1],
+                "LR": [2]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 450
-                }
+            "maintenance": {
+                "null": [null]
             }
-        },
-        "termoelectricas": {
-            "lim_gen_term": 562,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Rente"
-                    },
+            
+        }, 
 
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Santa Cruz"
-                    },
-
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad",
-                        "CTE": ""
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                {
-                    "cantidad": 46,
-                    "razon": "por combustible",
-                    "mw_afectados": 287
-                }
-            ]
-        },
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "Entrada de 3 motores en la patana de Melones, entrada de la unidad 2 de Energas Boca de Jaruco y el completamiento de la unidad 6 de esta misma central",
-                    "razon": "",
-                    "cantidad_mw": 103
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 749,
-            "hora": "20:30",
-            "desc": "No coincidente con la hora pico, informó la Unión Eléctrica."
-        },
-        "dia_anterior": {
-            "desc": "La afectación se ha mantenido durante toda la madrugada de hoy.",
-            "horas": 24,
-            "hora_rest": ""
-        }
+        {
+            "limitation": 562
+    }
+],
+    "distributed": {
+        "motors_with_problems": 46,
+        "total_impact": 287,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": 48
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 749,
+        "max_hour": 2030
     }
 }

@@ -12,3 +12,5 @@ Se encuentran fuera de servicio por combustible 52 centrales de generación dist
 Para el pico se estima la entrada de la unidad 1 de la CTE Santa Cruz con 80 MW, la entrada de la patana de Regla con 45 MW y el completamiento de la unidad 1 de la CTE Felton con 70 MW.
 
 Con este pronóstico, se estima para la hora pico una disponibilidad de 2450 MW y una demanda máxima de 3200 MW, para un déficit de 750 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 820 MW en este horario.
+
+http://www.cubadebate.cu/noticias/2024/09/09/la-union-electrica-estima-un-deficit-de-750-mw-en-horario-pico-de-este-9-de-septiembre/
